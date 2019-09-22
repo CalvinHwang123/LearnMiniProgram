@@ -1,4 +1,6 @@
 <!--pages/home/home.wxml-->
-<text class="title">你好啊，单身狗</text>
-<button size='mini'>点击脱单</button>
-<image src='https://www.baidu.com/img/bd_logo1.png'></image>
+<view>知识点3 小程序初体验</view>
+<view>{{ name }}</view>
+<view wx:for='{{ skills }}'>{{ item.name }}</view>
+<view>亲{{ counter }}下</view>
+<button size='mini' bindtap='counterIncr'>+</button>

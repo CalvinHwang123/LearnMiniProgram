@@ -5,14 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
+    name: 'Xianlu Tech',
+    skills: [
+      { id: 1, name: 'Java' },
+      { id: 3, name: 'Python' },
+      { id: 5, name: 'JavaScript' },
+    ],
+    counter: 0
+  },
 
+  counterIncr() {
+    // 错误做法：界面不会更新
+    // this.data.counter++
+    // console.log('counter now: ', this.data.counter)
+
+    // 正确做法
+    this.setData({
+      counter: this.data.counter + 1
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(this)
   },
 
   /**
