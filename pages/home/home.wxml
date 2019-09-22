@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text class="title">你好啊，单身狗</text>
+<button size='mini'>点击脱单</button>
+<image src='https://www.baidu.com/img/bd_logo1.png'></image>
