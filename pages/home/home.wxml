@@ -1,4 +1,5 @@
 <!--pages/home/home.wxml-->
+<text>知识点1 小程序 Hello World</text>
 <text class="title">你好啊，单身狗</text>
 <button size='mini'>点击脱单</button>
 <image src='https://www.baidu.com/img/bd_logo1.png'></image>
